@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
 import { LINKS, LOGO } from "../constants/data";
-import { AnimatePresence, easeInOut, motion, stagger } from "framer-motion";
+import { AnimatePresence, motion, } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
