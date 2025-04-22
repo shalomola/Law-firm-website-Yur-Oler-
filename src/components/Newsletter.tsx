@@ -45,7 +45,6 @@ const Newsletter = () => {
             styles={
               "bg-[#A18B75] text-[#192026] text-xs lg:text-xl font-semibold w-2/6 lg:w-2/5 items-center justify-center"
             }
-            arrow={""}
           />
         </motion.div>
       </div>
