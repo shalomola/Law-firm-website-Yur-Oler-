@@ -13,7 +13,7 @@ const Experts = () => {
                 <Button title='More' styles='bg-[#192026] flex items-center gap-5 text-white lg:mt-10' arrow={"secondary"} />
             </Link>
         </div>
-        <div className="cards flex flex-col lg:flex-row w-full lg:w-3/5 h-auto justify-between">
+        <div className="cards flex flex-col gap-5 lg:flex-row lg:gap-0 w-full lg:w-3/5 h-auto justify-between">
             <Card picture={IMAGES.man} name='Agbaje Emmanuel' denomination='Corporate Business Law' extraStyles=''/>
             <Card picture={IMAGES.woman} name='Fajuagbe Esther' denomination='Criminal Law' extraStyles='lg:display-block' />
         </div>

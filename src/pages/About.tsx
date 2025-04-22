@@ -8,7 +8,7 @@ import Video from "./sections/AboutPage/Video"
 
 const About = () => {
   return (
-    <div className="w-full bg-[#192026]">
+    <div className="w-full bg-[#192026] pt-10 lg:pt-5">
       <Hero />
       <div className="w-full flex py-10 items-center justify-center">
         <div className="w-full lg:w-2/3 px-5">

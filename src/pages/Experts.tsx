@@ -6,7 +6,7 @@ import Footer from "../components/Footer"
 
 const Experts = () => {
   return (
-    <div className="w-full">
+    <div className="w-full bg-[#192026] pt-10 lg:pt-5">
       <Hero />
       <ExpertsList />
       <Newsletter />

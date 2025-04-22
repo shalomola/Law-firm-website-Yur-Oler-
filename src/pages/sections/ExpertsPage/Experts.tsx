@@ -3,7 +3,7 @@ import { IMAGES } from "../../../constants/data";
 
 const ExpertsList = () => {
   return (
-    <div className="w-full p-5 lg:p-10 ">
+    <div className="w-full p-5 lg:p-10 bg-white">
       <div className="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full h-auto">
         <Card
           picture={IMAGES.man}

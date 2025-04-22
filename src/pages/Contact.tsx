@@ -4,7 +4,7 @@ import Hero from "./sections/ContactPage/Hero"
 
 const Contact = () => {
   return (
-    <div>
+    <div className="bg-[#192026] pt-10 lg:pt-5">
       <Hero />
       <Form />
       <Footer />
