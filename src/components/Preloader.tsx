@@ -13,7 +13,7 @@ const Preloader = () => {
       transition={{ delay: 3, duration: 0.8 }}
     >
         <img src={LOGO.logoSecondary} alt="" className="w-40" />
-      <motion.h1
+      {/* <motion.h1
         initial={{ scale: 1 }}
         animate={{ scale: 1.2 }}
         transition={{
@@ -24,7 +24,7 @@ const Preloader = () => {
         className="text-xl text-[#A18B75] font-semibold mt-10"
       >
         Loading...
-      </motion.h1>
+      </motion.h1> */}
     </motion.div>
   );
 };
